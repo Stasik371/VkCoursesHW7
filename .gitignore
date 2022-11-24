@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/Application/build/
+/Application/build/classes/java/main/
+/jooq-generated/build/
+/jooq-generated/build/classes/java/main/
