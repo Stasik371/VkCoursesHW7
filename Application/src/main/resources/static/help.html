@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Helper</title>
+</head>
+<body>
+<h3>Справка по работе с веб-сервисом на основе Jetty</h3>
+<p>Роли:</p>
+<pre>    1. Guest, доступен GET запрос. Логин/Пароль guest/guest</pre>
+<pre>    2. Manager, доступны GET и POST запросы. Логин/Пароль manager/manager</pre>
+<p>Запросы:</p>
+<pre>    1. curl -u LOGIN:PASSWORD http://localhost:PORT/prod отправка GET запроса(получение json строки всех позиций).</pre>
+<pre>    2. curl -u LOGIN:PASSWORD --data "product=INFO" http://localhost:PORT/prod отправка POST запроса, где INFO: Название позиции;Название организации;Количество.</pre>
+
+</body>
+</html>
